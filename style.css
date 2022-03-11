@@ -1,0 +1,53 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+#score{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+}
+
+#score-header{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#score-content{
+    display: flex;
+    gap: 250px;
+    text-align: center;
+}
+
+#comment{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 16px;
+}
+
+#selection{
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+#output{
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    gap: 64px;
+}
+
+.player-choice, .computer-choice{
+    border: 2px solid red;
+    padding: 64px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
